@@ -1,0 +1,17 @@
+.tic-tac-toe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.tic-tac-toe article {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    min-height: 100px; 
+}
